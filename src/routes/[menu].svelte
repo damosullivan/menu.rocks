@@ -7,6 +7,13 @@
 	const menu = $page.params['menu'];
 </script>
 
+<svelte:head>
+	<title>{menu} Menu - menu.rocks</title>
+	<meta name="robots" content="noindex nofollow" />
+	<html lang="en" />
+</svelte:head>
+
+
 <h1>{menu}'s Menu</h1>
 
 <table>

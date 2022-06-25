@@ -1,23 +1,26 @@
-# create-svelte
+# menu.rocks &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![Netlify Status](https://api.netlify.com/api/v1/badges/a3ff6aee-f580-453a-a097-1d43e86eba1b/deploy-status)](https://app.netlify.com/sites/fastidious-malabi-5b5964/deploys)
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-## Creating a project
 
-If you're seeing this, you've probably already done this step. Congrats!
+A publically accessible menu available for free to restaurants or cafes, managed by a Google Sheet.
 
-```bash
-# create a new project in the current directory
-npm init svelte
+https://menu.rocks
 
-# create a new project in my-app
-npm init svelte my-app
-```
 
-## Developing
+-------
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Idea
 
+* A menu backed by a simple Google Sheet - [menu.rocks Template](https://docs.google.com/spreadsheets/d/14jM5bSRLCIrDoGZcManYHUNqhQTogvbnH3A70F_OrHs/edit?usp=sharing)
+* Available online (mobile friendly) at an easily rememberable URL - e.g. menu.rocks/reidys
+* Printable on A4 pages to be used in-house
+* Printable QR codes also available
+* Once set up, edits can easily be made on Google Sheet
+
+
+## Development
+
+**Run**
 ```bash
 npm run dev
 
@@ -25,7 +28,7 @@ npm run dev
 npm run dev -- --open
 ```
 
-## Building
+**Build**
 
 To create a production version of your app:
 
